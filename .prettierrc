@@ -1,0 +1,5 @@
+#格式化代码配置
+{
+    "semi": false,
+    "singleQuote": true
+}
