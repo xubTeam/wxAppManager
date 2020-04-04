@@ -5,6 +5,7 @@ import Index from '@/components/Index'
 import Home from '@/components/Home'
 import User from '@/components/User'
 import Role from '@/components/Role'
+
 import Article from '@/components/Article'
 import Attendance from '@/components/Attendance'
 import AttendanceDetail from '@/components/AttendanceDetail'
@@ -50,66 +51,6 @@ const router = new Router({
         path: '/role',
         name: 'Role',
         component: Role
-      },
-      {
-        path: '/article',
-        name: 'Article',
-        component: Article
-      },
-      {
-        path: '/attendance',
-        name: 'Attendance',
-        component: Attendance
-      },
-      {
-        path: '/attendanceDetail',
-        name: 'AttendanceDetail',
-        component: AttendanceDetail
-      },
-      {
-        path: '/class',
-        name: 'Class',
-        component: Class
-      },
-      {
-        path: '/file',
-        name: 'File',
-        component: File
-      },
-      {
-        path: '/lesson',
-        name: 'Lesson',
-        component: Lesson
-      },
-      {
-        path: '/lessonArrangement',
-        name: 'LessonArrangement',
-        component: LessonArrangement
-      },
-      {
-        path: '/modifyPwd',
-        name: 'ModifyPwd',
-        component: ModifyPwd
-      },
-      {
-        path: '/permission',
-        name: 'Permission',
-        component: Permission
-      },
-      {
-        path: '/personInfo',
-        name: 'PersonInfo',
-        component: PersonInfo
-      },
-      {
-        path: '/student',
-        name: 'Student',
-        component: Student
-      },
-      {
-        path: '/teacher',
-        name: 'Teacher',
-        component: Teacher
       },
       ]
     }
